@@ -5,7 +5,8 @@ Writes a single funny final text message, in the voice of a dying
 phone battery to the charger it waited for all day, to
 /output/entry.txt (also honours $OUTPUT_DIR for local runs). The text
 is fixed: no randomness, no network, no external input, so every run
-produces byte-identical output.
+produces byte-identical output. Revised once after the first local
+run to add this note; the entry text itself is unchanged.
 """
 import os
 from pathlib import Path
